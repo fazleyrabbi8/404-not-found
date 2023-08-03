@@ -12,12 +12,12 @@
 
 .scarecrow {
 
-    
+
     border-radius: 8px;
     background: #FFF;
     padding: 20px;
-    
-   
+
+
 }
 
 
@@ -62,4 +62,26 @@
     width: 216px;
     height: 68px;
     flex-shrink: 0;
+}
+
+@media screen and (max-width:576px) {
+
+
+
+    .scarecrow > img {
+      
+       max-width: 375px;
+        max-height: 949px;
+    }
+
+    .maincontainer {
+        flex-direction: column;
+    }
+    .badnewstitle{
+        width: 350px;
+    }
+    .newsdescriptio{
+        width: 328px;
+    }
+
 }
